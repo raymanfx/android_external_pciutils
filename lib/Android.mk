@@ -20,6 +20,7 @@ LIBNL_OBJ += dump.c
 LIBNL_OBJ += names.c
 LIBNL_OBJ += names-cache.c
 LIBNL_OBJ += names-hash.c
+LIBNL_OBJ += names-hwdb.c
 LIBNL_OBJ += names-net.c
 LIBNL_OBJ += names-parse.c
 LIBNL_OBJ += filter.c
