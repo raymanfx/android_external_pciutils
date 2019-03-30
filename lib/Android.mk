@@ -25,6 +25,8 @@ LIBNL_OBJ += names-parse.c
 LIBNL_OBJ += filter.c
 LIBNL_OBJ += caps.c
 
+L_CFLAGS = -Wno-error
+
 ifdef CONFIG_ANDROID_LOG
 L_CFLAGS += -DCONFIG_ANDROID_LOG
 endif
